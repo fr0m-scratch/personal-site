@@ -15,46 +15,46 @@ export default function NavBar({ currPage, blogPost }) {
           </div>
         </Link>
         <ul className={styles.listStyle}>
-          <Link href="/about">
+          {/* <Link href="/about">
             <li
               className={styles.horizontal}
               style={currPage == "about" ? active : notActive}
             >
               About
             </li>
-          </Link>
-          <Link href="/projects">
+          </Link> */}
+          {/* <Link href="/projects">
             <li
               className={styles.horizontal}
               style={currPage == "projects" ? active : notActive}
             >
               Projects
             </li>
-          </Link>
-          <Link href="/doodles">
+          </Link> */}
+          {/* <Link href="/doodles">
             <li
               className={styles.horizontal}
               style={currPage == "doodles" ? active : notActive}
             >
               Doodles
             </li>
-          </Link>
-          <Link href="/writing">
+          </Link> */}
+          {/* <Link href="/writing">
             <li
               className={styles.horizontal}
               style={currPage == "writing" ? active : notActive}
             >
               Writing
             </li>
-          </Link>
-          <Link href="/changelog">
+          </Link> */}
+          {/*<Link href="/changelog">
             <li
               className={styles.horizontal}
               style={currPage == "changelog" ? active : notActive}
             >
               Changelog
             </li>
-          </Link>
+          </Link>*/}
           {/* <Link href="/values">
             <li
               className={styles.horizontal}

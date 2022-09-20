@@ -3,8 +3,8 @@
   padding: 0 0.5rem;
   display: flex;
   height: 50vh;
-  /* flex-direction: column; */
-  justify-content: center;
+  flex-direction: row; 
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -46,7 +46,7 @@
   }
   .textBox {
     margin-bottom: 4%;
-    width: 100% !important;
+    width: 80% !important;
   }
   .container {
     flex-direction: column-reverse;
@@ -124,7 +124,7 @@
   }
 
   .textBox {
-    width: 100% !important;
+    width: 80% !important;
   }
 }
 

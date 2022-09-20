@@ -12,27 +12,23 @@ const date = new Date();
 
 const links = [
   {
-    link: "https://www.instagram.com/zhaovan8/",
+    link: "https://www.instagram.com/jamaltheodds/",
     type: "ig",
   },
   {
-    link: "https://twitter.com/zhaovan8",
-    type: "twitter",
-  },
-  {
-    link: "http://linkedin.com/in/ivanzhao8",
+    link: "https://www.linkedin.com/in/jamal-cao-218b781b5/",
     type: "li",
   },
   {
-    link: "https://github.com/zhaovan",
+    link: "https://github.com/fr0m-scratch",
     type: "github",
   },
   {
-    link: "/Ivan_Zhao.pdf",
+    link: "",
     type: "resume",
   },
   {
-    link: "mailto:ivanzhao8@gmail.com",
+    link: "mailto:jamaltheodds@gmail.com",
     type: "email",
   },
 ];
@@ -64,7 +60,7 @@ export default function Footer() {
       </ul>
 
       <div className={styles.footerText}>
-        © {date.getFullYear()} Ivan Zhao, made with ☕ and 🍵
+        © {date.getFullYear()} Jamal Cao, all dedicated to his cat 🐱
       </div>
     </footer>
   );
