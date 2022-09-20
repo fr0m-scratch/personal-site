@@ -1,0 +1,85 @@
+.photo {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 20px;
+  box-shadow: 0.5rem 1rem 10px;
+  /* z-index: 99; */
+}
+
+.photoWrapper {
+  position: relative;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  /* border-color: gold;
+  border-width: 5px;
+  border-style: dotted; */
+  left: -0.5rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: 5;
+  border-left: 50px solid transparent;
+  transform: rotate(-30deg);
+  top: 2rem;
+  left: 5rem;
+  border-right: 50px solid transparent;
+
+  border-bottom: 50px solid #dae5ff;
+}
+
+.linkItem {
+  margin: 0.25rem 0rem;
+}
+
+.questions {
+  font-style: italic;
+}
+
+.text {
+  font-size: 18px;
+}
+
+@media (max-width: 1150px) {
+  .newContainer {
+    flex-direction: column;
+  }
+  .photo {
+    margin-top: 1%;
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  .photoWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .jack {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .photo {
+    width: 75% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .circle {
+    left: 125px;
+  }
+  .triangle {
+    left: 200px;
+  }
+}

@@ -1,0 +1,142 @@
+.container {
+  /* min-height: 100vh; */
+  padding: 0 0.5rem;
+  display: flex;
+  height: 50vh;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 1rem 0;
+  line-height: 2.5rem;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .oval {
+    width: 350px !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .photo {
+    width: 70% !important;
+    align-self: center;
+    margin-left: 12.5%;
+  }
+  .oval {
+    max-width: 60%;
+  }
+  .title {
+    margin-top: 8%;
+    font-size: 26px;
+    text-align: center;
+  }
+  .textBox {
+    margin-bottom: 4%;
+    width: 100% !important;
+  }
+  .container {
+    flex-direction: column-reverse;
+    width: 90% !important;
+    margin-bottom: 15vh !important;
+  }
+}
+
+.photo {
+  width: 25vw;
+  /* margin-top: 8%; */
+  margin-right: 2%;
+  /* -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate; */
+}
+
+/* @-webkit-keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+} */
+
+@-webkit-keyframes squish {
+  0% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes squish {
+  0% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.textBox {
+  margin-top: 2%;
+  font-size: 16px;
+  line-height: 1.5em;
+  width: 80%;
+}
+
+@media (min-width: 540px) and (max-width: 1023px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .photo {
+    margin-top: 5vh;
+    width: 65%;
+    align-self: center;
+  }
+  .tabletDiv {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+  }
+  .title {
+    text-align: center;
+  }
+
+  .textBox {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .photo {
+    width: 80% !important;
+    /* margin-left: 10%; */
+  }
+  .tabletDiv {
+    margin-top: 15vh;
+  }
+  .oval {
+    width: 100%;
+  }
+}
