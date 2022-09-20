@@ -1,21 +1,16 @@
 export default {
-  title: "Ivan's Personal Site",
+  title: "Jamal's Site",
   description:
-    "Hey there, I'm Ivan. I'm probably taking photos, writing code, baking bread, and napping.",
+    "A curious college freshman learning, exlporing, building, and involving.",
   openGraph: {
     type: "website",
     locale: "en_IE",
-    url: "https://www.ivanzhao.me/",
-    site_name: "Ivan's Personal Site",
+    url: "https://www.jamalcao.me/",
+    site_name: "Jamal's Site",
     images: [
       {
-        url: "https://ivanzhao.me/thumbnail.png",
+        url: "https://www.jamalcao.me/blackhole.webp",
       },
     ],
-  },
-  twitter: {
-    handle: "@zhaovan8",
-    site: "@zhaovan8",
-    cardType: "summary_large_image",
-  },
+  }
 };
