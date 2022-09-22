@@ -30,10 +30,10 @@ export default function Home() {
                     data-aos-delay="50"
                     className={styles.textBoxWrapper}
                 >
-                    <p className={styles.title}>Welcome my friend, this is Jamal</p>
+                    <p className={styles.title}>Welcome my friend, this is Jamal!</p>
                     <div className={styles.textBox}>
                         <p>
-                            A curious college freshman learning, exlporing, building, and involving.
+                            A curious college freshman learning, exlporing, building, and involving. And my friend, we are one, same sapeins on earth; let us make this world a better place, together!
                         </p>
                     </div>
                 </div>

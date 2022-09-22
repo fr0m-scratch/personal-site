@@ -4,7 +4,7 @@ export default function Header({ title }) {
   return (
     <Head>
       <title>{title}</title>
-      <link rel="icon" href="/icon.ico" />
+      <link rel="icon" href="/download.png"  />
     </Head>
   );
 }

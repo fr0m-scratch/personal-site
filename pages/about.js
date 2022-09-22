@@ -3,7 +3,7 @@ import styles from "../styles/About.module.css";
 import shared from "../styles/Shared.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import AboutImage from "../public/media/about_ivan.jpeg";
+import AboutImage from "../public/meandjas.jpeg";
 
 const links = [
   {
@@ -29,24 +29,24 @@ export default function About() {
       <div>
         <div className={[shared.container, styles.newContainer].join(" ")}>
           <div className={styles.photoWrapper} data-aos="fade-right">
-            <div className={styles.circle} />
+            
             <img
               src={AboutImage}
               className={styles.photo}
               alt="This is a terrible photo of me but with cute cats"
             />
+            <p className={styles.text}>
+                    Jamal and Jas -- (Ja)square
+          </p>
+
           </div>
 
           <div style={{ marginLeft: "4%" }}>
             <div data-aos="fade-left" data-duration="1000">
               <p className={styles.text}>
-                I'm a dog lover from Seattle, WA, trying to fill this world with{" "}
-                <b>
-                  baked goods, good vibes, strong drinks, meaningful words, and
-                  playful software.
-                </b>
+                I am super super nice person, like a huge golden retriver. If you see me around the park, don't hesitate to say hi!
               </p>
-              <p className={styles.text}>
+              {/* <p className={styles.text}>
                 Honestly, I'm still trying to figure out what I want to do in
                 life but some areas that thrill me are{" "}
                 <a href="https://numinous.productions/ttft" target="_blank">
@@ -60,7 +60,7 @@ export default function About() {
                 <a href="http://www.celestegame.com/" target="_blank">
                   transformative games.
                 </a>{" "}
-              </p>
+              </p> */}
               <p className={styles.text}>
                 I fundamentally believe that technology, used judiciously, can
                 build a better future. I'm in my era of hobby and exploration
@@ -69,7 +69,7 @@ export default function About() {
                 shops, hammocking at the top of a mountain, or napping at home
                 with my dog.
               </p>
-              <p className={styles.text}>
+              {/* <p className={styles.text}>
                 Some of the main questions that drive the work that I'm most
                 interested in are:
               </p>
@@ -90,8 +90,8 @@ export default function About() {
                   How do the stories and lived experiences of families,
                   represented in media and culture, change our notion of self?
                 </li>
-              </ul>
-              <p className={styles.text}>
+              </ul> */}
+             {/*  <p className={styles.text}>
                 <b>Some essays and videos that I love:</b>
                 <ul>
                   {links.map((currLink, i) => {
@@ -104,7 +104,7 @@ export default function About() {
                     );
                   })}
                 </ul>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

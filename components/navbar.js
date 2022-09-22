@@ -1,6 +1,6 @@
 import styles from "../styles/Navbar.module.css";
 import Link from "next/link";
-import doggo from "../public/media/doggo.png";
+import doggo from "../public/beagle.png";
 
 export default function NavBar({ currPage, blogPost }) {
   const active = { opacity: 1 };
@@ -15,14 +15,14 @@ export default function NavBar({ currPage, blogPost }) {
           </div>
         </Link>
         <ul className={styles.listStyle}>
-          {/* <Link href="/about">
+          <Link href="/about">
             <li
               className={styles.horizontal}
               style={currPage == "about" ? active : notActive}
             >
               About
             </li>
-          </Link> */}
+          </Link>
           {/* <Link href="/projects">
             <li
               className={styles.horizontal}

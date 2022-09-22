@@ -3,9 +3,10 @@
   padding: 0 0.5rem;
   display: flex;
   height: 50vh;
-  flex-direction: row; 
-  justify-content: space-between;
+  /* flex-direction: column; */
+  justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 .title {
@@ -13,6 +14,8 @@
   font-weight: 600;
   margin: 1rem 0;
   line-height: 2.5rem;
+  padding-left: 12%;
+  
 }
 
 .description {
@@ -46,7 +49,7 @@
   }
   .textBox {
     margin-bottom: 4%;
-    width: 80% !important;
+    width: 100% !important;
   }
   .container {
     flex-direction: column-reverse;
@@ -101,7 +104,8 @@
   margin-top: 2%;
   font-size: 16px;
   line-height: 1.5em;
-  width: 80%;
+  width: 100%;
+  padding-left: 20%;
 }
 
 @media (min-width: 540px) and (max-width: 1023px) {
@@ -124,7 +128,7 @@
   }
 
   .textBox {
-    width: 80% !important;
+    width: 100% !important;
   }
 }
 

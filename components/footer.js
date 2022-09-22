@@ -5,6 +5,7 @@ import { instagram } from "react-icons-kit/fa/instagram";
 import { fileTextO } from "react-icons-kit/fa/fileTextO";
 import { githubSquare } from "react-icons-kit/fa/githubSquare";
 import { envelope } from "react-icons-kit/fa/envelope";
+import {youtubePlay} from "react-icons-kit/fa/youtubePlay";
 import Icon from "react-icons-kit";
 import styles from "../styles/Footer.module.css";
 
@@ -31,6 +32,10 @@ const links = [
     link: "mailto:jamaltheodds@gmail.com",
     type: "email",
   },
+  {
+    link:"https://www.youtube.com/channel/UCAyb8jNR575xu42rUIwXslg",
+    type:"youtube"
+  }
 ];
 
 const iconMap = {
@@ -41,6 +46,7 @@ const iconMap = {
   github: <Icon icon={githubSquare} size={20} />,
   resume: <Icon icon={fileTextO} size={20} />,
   email: <Icon icon={envelope} size={20} />,
+  youtube: <Icon icon={youtubePlay} size={20}/>,
 };
 
 export default function Footer() {
