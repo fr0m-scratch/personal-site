@@ -9,6 +9,8 @@
 
 .photoWrapper {
   position: relative;
+  align-items: center;
+  flex-direction: column;
 }
 
 .circle {
