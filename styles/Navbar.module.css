@@ -70,16 +70,40 @@
   .logo:hover {
     animation: none;
   }
+  .logo {
+    width: 25%;
+    margin-left: 37.5%;
+    margin-bottom: 20%;
+  }
 }
 
 @media (max-width: 320px) {
   .listStyle {
     flex-wrap: wrap;
+    display: flex;
+  }
+  .logo:hover {
+    animation: none;
+  }
+  .logo {
+    width: 25%;
+    margin-left: 37.5%;
+    margin-bottom: 20%;
   }
 }
 @media (max-width: 426px) {
   .listStyle {
     padding-inline-end: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo:hover {
+    animation: none;
+  }
+  .logo {
+    width: 25%;
+    margin-left: 37.5%;
+    margin-bottom: 20%;
   }
 }
 
