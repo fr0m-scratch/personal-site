@@ -31,14 +31,14 @@ export default function NavBar({ currPage, blogPost }) {
               Projects
             </li>
           </Link> */}
-          {/* <Link href="/doodles">
+          <Link href="https://fr0m-scratch.notion.site/fr0m-scratch/Linear-Algebra-Note-e9f5b1caa119472dae1012fff9f14799">
             <li
               className={styles.horizontal}
-              style={currPage == "doodles" ? active : notActive}
+              style={currPage == "LA note" ? active : notActive}
             >
-              Doodles
+              LA note
             </li>
-          </Link> */}
+          </Link>
           {/* <Link href="/writing">
             <li
               className={styles.horizontal}
