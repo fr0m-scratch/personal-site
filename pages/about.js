@@ -43,9 +43,9 @@ export default function About() {
 
           <div style={{ marginLeft: "4%" }}>
             <div data-aos="fade-left" data-duration="1000">
-              <p className={styles.text}>
+              {/* <p className={styles.text}>
                 I am super super nice person, like a huge golden retriver. If you see me around the park, don't hesitate to say hi!
-              </p>
+              </p> */}
               {/* <p className={styles.text}>
                 Honestly, I'm still trying to figure out what I want to do in
                 life but some areas that thrill me are{" "}
@@ -62,12 +62,7 @@ export default function About() {
                 </a>{" "}
               </p> */}
               <p className={styles.text}>
-                I fundamentally believe that technology, used judiciously, can
-                build a better future. I'm in my era of hobby and exploration
-                and am currently obsessed with film photography, short stories
-                and poetry, and mixology. Catch me hanging out at random coffee
-                shops, hammocking at the top of a mountain, or napping at home
-                with my dog.
+              Hi there, my name is Jamal Cao, and I'm thrilled that you've landed on my website! I'm a computer science and mathematics major at NYU, with a keen interest in science fiction, space exploration, and distributed systems. As a firm believer in the power of technology to shape the future, I'm constantly exploring new ways to leverage computing to address the world's most pressing problems, including environmental sustainability and social justice. On this website, you'll find information about my projects, my research interests, and my thoughts on the latest developments in tech. Thanks for stopping by, and I look forward to connecting with you! 
               </p>
               {/* <p className={styles.text}>
                 Some of the main questions that drive the work that I'm most

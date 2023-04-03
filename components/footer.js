@@ -24,14 +24,14 @@ const links = [
     link: "https://github.com/fr0m-scratch",
     type: "github",
   },
-  /* {
-    link: "",
+  {
+    link: "/Resume.pdf",
     type: "resume",
-  }, */
-  /* {
-    link: "mailto:jamaltheodds@gmail.com",
+  }, 
+  {
+    link: "mailto:zc2569@nyu.edu",
     type: "email",
-  }, */
+  }, 
   {
     link:"https://www.youtube.com/channel/UCAyb8jNR575xu42rUIwXslg",
     type:"youtube"
